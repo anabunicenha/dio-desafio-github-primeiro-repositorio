@@ -1,0 +1,80 @@
+# Resumo do curso sobre Git/GitHub
+
+
+### **O que é o Git e para que serve?**
+
+
+Criado pelo engenheiro de software Linus Torvalds, conhecido por ter desenvolvido, também, o Linux, o GIT é um _Sistema de Controle de Versões Distribuído_ ou DVCS.
+
+Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um arquivo ou código, armazenando essas informações e permitindo que, caso seja necessário, seja possível regredir a versões anteriores de modo simples e rápido.
+
+Uma das maiores vantagens de usar o GIT é justamente o fato de ele ser um sistema **distribuído**. Isso significa que, diferentemente de outros sistemas de controle de versionamento populares na época em que foi lançado, o GIT possui repositórios, e não somente um único local com o histórico do seu arquivo.
+
+[Link para download do Git](https://git-scm.com/downloads)
+
+
+---
+
+
+### **O que é o GitHub e para que serve?**
+
+
+O GitHub é uma espécie de rede social voltada a profissionais de TI cuja tecnologia que o sustenta é o GIT.
+
+Em outras palavras, o GitHub é uma plataforma totalmente online onde você pode criar repositórios e hospedar nele seus projetos, colaborar com projetos de outras pessoas ou empresas, seguir outros profissionais da área e interagir com códigos de terceiros.
+
+O GitHub armazena todos estes dados em uma nuvem e você pode acessá-los de onde estiver apenas logando no site.
+
+Ele serve, principalemente, para facilitar o controle de versões de um software ou aplicação. Além de proporcionar encontros virtuais entre programadores(as) do mundo todo.
+
+Ele é, também, o maior repositório de softwares de código aberto de toda a internet.
+
+[Link para criar conta ou acessar o GitHub](https://github.com/)
+
+
+---
+
+
+### **Algumas nomenclaturas básicas do Git e GitHub:**
+
+_**Repositório:**_
+
+Os repositórios são os ambientes criados para armazenar seus códigos.
+
+Podemos possuir um ou mais repositórios, públicos ou privados, locais ou remotos, e eles podem armazenar não somente os próprios códigos a serem modificados, mas também imagens, áudios, arquivos e outros elementos relacionados ao seu projeto.
+
+É através dos repositórios públicos que outros programadores poderão ter acesso aos códigos no GitHub, podendo, inclusive, cloná-los para adicionar melhorias.
+
+_**Branch:**_
+
+Branch é o nome dado a uma versão (ramificação) do projeto. 
+
+Isso é útil porque possibilita gerenciar múltiplas alterações acontecendo simultaneamente. 
+
+_**Merge:**_
+
+Para unir as modificações feitas em um branch ao código original, utilizamos o comando merge.
+
+Com esta funcionalidade, todas as alterações feitas em cópias manipuláveis são inseridas, após aprovadas, no código-fonte original sem complicações.
+
+
+---
+
+
+### **Principais comandos do Git:**
+
+- **Init:** este comando dá origem a um repositório novo, local ou remoto, ou reinicializa um repositório já existente;
+
+- **Clone:** este comando clona o código de um repositório para sua manipulação em outro ambiente;
+  
+- **Commit:** este comando move os arquivos da state area para um repositório local;
+
+- **Add:** este comando adiciona um arquivo alterado a uma staging area, ou seja, o prepara para ser vinculado a um commit;
+  
+- **Push:** este comando envia arquivos de um repositório local para um repositório remoto. No GitHub, por exemplo;
+
+- **Pull:** ao contrário do push, este comando traz um arquivo do repositório remoto para o repositório local.
+  
+- **Merge:** este comando serve para unir arquivos alterados ao arquivo original de um projeto. Em outras palavras, é ele quem une os branchs as commits.
+  
+- **Log:** este comando permite a visualização do histórico de commits de um arquivo ou usuário, ou o acesso de uma versão específica.
